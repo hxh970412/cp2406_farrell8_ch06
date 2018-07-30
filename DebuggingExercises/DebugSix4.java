@@ -17,6 +17,8 @@ public class DebugSix4
       low = input.nextInt();
       System.out.print("Enter high value... ");
       high = input.nextInt();
+      System.out.print("Enter count value... ");
+      count = input.nextInt();
       while(low == high)
       {
          System.out.println("The number you entered for a high number, " +
